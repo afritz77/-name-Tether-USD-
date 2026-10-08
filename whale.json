@@ -1,1 +1,10 @@
-{"name":"USDT Whale","symbol":"USDTW","description":"USDT Whale (USDTW) — the whale-strength dollar of Solana. Fixed supply of 80M. Mint and freeze authorities revoked. Liquidity pool burned. Organic trading on Raydium and Jupiter.","image":"https://files.catbox.moe/9c1zls.svg","external_url":"https://github.com/afritz77/usdt-token"}
+{
+  "name": "USDT Whale",
+  "symbol": "USDTW",
+  "description": "Fixed-supply Solana meme token. 80,000,000 USDTW ever. Mint authority revoked, freeze authority revoked, metadata immutable, liquidity burned. No rug left in it.",
+  "image": "https://raw.githubusercontent.com/afritz77/usdt-token/main/whale-logo.png",
+  "extensions": {
+    "website": "https://afritz77.github.io/usdt-token/",
+    "twitter": "https://x.com/YOUR_X_HANDLE"
+  }
+}
