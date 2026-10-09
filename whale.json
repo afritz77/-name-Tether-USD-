@@ -2,5 +2,9 @@
   "name": "USDTW",
   "symbol": "USDTW",
   "description": "USDTW — fixed-supply Solana token. 80,000,000 ever. Mint revoked, freeze revoked, metadata locked, LP burned.",
-  "image": "https://raw.githubusercontent.com/afritz77/usdt-token/main/whale-logo.png"
+  "image": "https://raw.githubusercontent.com/afritz77/usdt-token/main/whale-logo.png",
+  "extensions": {
+    "website": "https://afritz77.github.io/usdt-token/",
+    "twitter": "https://x.com/asilimeme"
+  }
 }
