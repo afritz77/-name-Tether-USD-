@@ -1,10 +1,1 @@
-{
-  "name": "USDTW",
-  "symbol": "USDTW",
-  "description": "USDTW — fixed-supply Solana token. 80,000,000 ever. Mint revoked, freeze revoked, metadata locked, LP burned.",
-  "image": "https://raw.githubusercontent.com/afritz77/usdt-token/main/whale-logo.png",
-  "extensions": {
-    "website": "https://afritz77.github.io/usdt-token/",
-    "twitter": "https://x.com/asilimeme"
-  }
-}
+{"name":"USDTW","symbol":"USDTW","description":"USDTW — fixed-supply settlement token on Solana and Tron. 80,000,000 per network, minted once, no more can ever be created. No mint. No freeze. No owner. All details verifiable on Solscan and Tronscan.","image":"https://cdn.jsdelivr.net/gh/afritz77/usdt-token@main/logo.svg","external_url":"https://afritz77.github.io/usdt-token/","twitter":"https://x.com/asilimeme"}
