@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>USDT Whale — USDTW on Solana</title>
-<meta name="description" content="USDT Whale (USDTW) — fixed-supply Solana meme token. 80,000,000 USDTW. No mint. No freeze. No rug.">
+<title>USDTW — Fixed-Supply Token on Solana + Tron</title>
+<meta name="description" content="USDTW — fixed-supply token. 80,000,000 per network. No mint. No freeze. No owner.">
 <style>
   :root { --bg:#050b14; --fg:#dbe9ff; --dim:#6b8bb8; --acc:#2fd4a7; }
   * { margin:0; padding:0; box-sizing:border-box; }
@@ -12,40 +12,44 @@
   .logo { width:120px; height:120px; border-radius:24px; }
   h1 { font-size:42px; margin-top:18px; letter-spacing:-1px; }
   .sym { color:var(--acc); }
-  p.tag { color:var(--dim); margin-top:10px; font-size:17px; text-align:center; max-width:560px; line-height:1.6; }
-  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:14px; margin-top:32px; width:100%; max-width:840px; }
+  p.tag { color:var(--dim); margin-top:10px; font-size:17px; text-align:center; max-width:640px; line-height:1.6; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:14px; margin-top:32px; width:100%; max-width:900px; }
   .card { background:#0a1524; border:1px solid #14263d; border-radius:14px; padding:18px 20px; }
   .card .k { color:var(--dim); font-size:12px; text-transform:uppercase; letter-spacing:1px; }
-  .card .v { font-size:15px; margin-top:6px; word-break:break-all; }
+  .card .v { font-size:14px; margin-top:6px; word-break:break-all; }
+  .ocean { margin-top:36px; width:100%; max-width:900px; text-align:left; }
+  .ocean h2 { font-size:20px; color:var(--acc); margin-bottom:12px; }
   a { color:var(--acc); text-decoration:none; }
   .links { margin-top:28px; display:flex; gap:18px; flex-wrap:wrap; justify-content:center; }
   .links a { font-size:15px; border:1px solid #1d3752; padding:10px 16px; border-radius:999px; }
   .links a:hover { border-color:var(--acc); }
-  footer { margin-top:40px; color:#3d5a80; font-size:13px; }
+  footer { margin-top:40px; color:#3d5a80; font-size:13px; text-align:center; max-width:640px; line-height:1.5; }
 </style>
 </head>
 <body>
-<img class="logo" src="https://files.catbox.moe/9c1zls.svg" alt="USDT Whale logo">
-<h1>USDT Whale <span class="sym">(USDTW)</span></h1>
-<p class="tag">The fixed-supply Solana meme token with the whale-size wallet. 80,000,000 USDTW minted once — no more can ever exist.</p>
+<img class="logo" src="https://raw.githubusercontent.com/afritz77/usdt-token/main/whale-logo.png" alt="USDTW whale logo">
+<h1>USDTW</h1>
+<p class="tag">The fixed-supply settlement token — live on two networks. 80,000,000 USDTW per network, minted once. No more can ever exist.</p>
+
 <div class="grid">
-  <div class="card"><div class="k">Network</div><div class="v">Solana</div></div>
-  <div class="card"><div class="k">Token Contract</div><div class="v">AFNnpqWGngEe8FUrwcc7kPb2ooXZP9u6dzbfehBnoBT</div></div>
-  <div class="card"><div class="k">Pool (Raydium CPMM)</div><div class="v">H69CCCP8rQAW2bVSJYRFhbnzYkqX7Dr21EhsrQpRCMJS</div></div>
-  <div class="card"><div class="k">Total Supply</div><div class="v">80,000,000 USDTW — final</div></div>
+  <div class="card"><div class="k">Networks</div><div class="v">Solana + Tron — 80,000,000 per network</div></div>
+  <div class="card"><div class="k">Total Supply</div><div class="v">80,000,000 per network — final, fixed forever</div></div>
+  <div class="card"><div class="k">Mint Authority</div><div class="v">None — no mint function exists on either chain</div></div>
+  <div class="card"><div class="k">Freeze / Owner</div><div class="v">None — no owner, no freeze, no blacklist</div></div>
 </div>
-<div class="grid">
-  <div class="card"><div class="k">Mint Authority</div><div class="v">Revoked — supply frozen forever</div></div>
-  <div class="card"><div class="k">Freeze Authority</div><div class="v">Revoked — no wallet can be frozen</div></div>
-  <div class="card"><div class="k">Metadata</div><div class="v">Immutable — name, symbol &amp; logo locked</div></div>
-  <div class="card"><div class="k">Liquidity</div><div class="v">LP burned — pool can never be pulled</div></div>
+
+<div class="ocean">
+  <h2>🌊 Solana</h2>
+  <div class="grid">
+    <div class="card"><div class="k">Contract</div><div class="v">AFNnpqWGngEe8FUrwcc7kPb2ooXZP9u6dzbfehBnoBT</div></div>
+    <div class="card"><div class="k">Market</div><div class="v"><a href="https://dexscreener.com/solana/H69CCCP8rQAW2bVSJYRFhbnzYkqX7Dr21EhsrQpRCMJS">DexScreener</a></div></div>
+    <div class="card"><div class="k">Status</div><div class="v">Live market · seals burned · source sealed</div></div>
+    <div class="card"><div class="k">Explorer</div><div class="v"><a href="https://solscan.io/token/AFNnpqWGngEe8FUrwcc7kPb2ooXZP9u6dzbfehBnoBT">Solscan</a></div></div>
+  </div>
 </div>
-<div class="links">
-  <a href="https://dexscreener.com/solana/H69CCCP8rQAW2bVSJYRFhbnzYkqX7Dr21EhsrQpRCMJS">DexScreener</a>
-  <a href="https://solscan.io/token/AFNnpqWGngEe8FUrwcc7kPb2ooXZP9u6dzbfehBnoBT">Solscan</a>
-  <a href="https://jup.ag/swap/SOL-USDTW_AFNnpqWGngEe8FUrwcc7kPb2ooXZP9u6dzbfehBnoBT">Trade on Jupiter</a>
-  <a href="https://x.com/YOUR_X_HANDLE">X / Twitter</a>
-</div>
-<footer>© 2025 USDT Whale — meme token, no intrinsic value, no promises. DYOR.</footer>
-</body>
-</html>
+
+<div class="ocean">
+  <h2>🌊 Tron</h2>
+  <div class="grid">
+    <div class="card"><div class="k">Contract</div><div class="v">TEXzwNmm6n29QcZVjhZZ6FU7wT53PbXnT8</div></div>
+    <div class="card"><div class="k">Status</div><div class="v">Source-verified ✓ — auditable on Tronscan</div>
